@@ -50,7 +50,7 @@ The `ordered_name` parameter influences `file_name`, and if it is none, then usi
    python3 ./Synthetic_Data/gen_vid.py -ev './file_name/events' -m 0
    ```
 
-10. 生成 `rs_blur`:
+9. 生成 `rs_blur`:
    ```bash
    python3 ./Synthetic_Data/blurring_rs.py -i ./file_name/gs -o ./file_name/rs_blur --blur_latency 200
    ```
